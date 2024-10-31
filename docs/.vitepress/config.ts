@@ -5,7 +5,8 @@ import sidebar from './config/sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 基础路径
-  base: '/lihk-blog/',
+  // base: '/lihk-blog/',
+  dest:'docs/.vitepress/dist',
   //开启上次更新时间
   lastUpdated: true,
   // 网页头部信息
